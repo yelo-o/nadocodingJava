@@ -52,4 +52,8 @@ public class BlackBox {
         System.out.println("서비스 센터(1588-0000) 로 연결합니다.");
     }
 
+    void appendModelName(String modelName) {
+        this.modelName += modelName; // 클래스의 인스턴스 변수에 접근
+
+    }
 }
